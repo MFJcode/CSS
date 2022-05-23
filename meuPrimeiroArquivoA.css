@@ -1,0 +1,50 @@
+
+/* Ordem de aplicação dos estilos 
+1 - Estilos das Tags HTML
+2 - Estilos Criado pelas classes que remove o anterior das tags
+3 - IDs primeiro recebe o id geral e depois é substituido pela tag + ID
+
+
+ID - ATRIBUTO É MUITO UTILIZADO COM JAVASCRIPT E AJAX (quando queremos manipular algum elemento HTML)
+para identificar um unico paragrafo.
+
+*/
+
+
+.paragrafoGrandeVermelho {
+    font-size: 40px;
+    color: #ff0000;
+    font-style: normal;
+}
+
+.fundoVermelho {
+    background-color: #ff0000;
+}
+
+.corBranca {
+    color: #ffffff;
+}
+
+p {
+     font-style: italic;  
+}
+
+#rodape {  
+    font-size: 30px;
+    background-color: #ffdddd;
+}
+
+p#rodape {  /* quando colocamos a tag neste caso p especificamos que desejamos alterar apenas o paragrafo com a tag p e o ID se tirarmos a tag aplica a todos com ID rodape*/
+    font-size: 30px; /* se tirarmos o tamanho da fonte aqui continua aparecendo por que herda do rodapé geral */
+    background-color: #ffaaaa;
+}
+
+p#dicaDoMfj {
+    color: #ffffff;
+    background-color: #0000ff;
+}
+
+
+th.paragrafoGrandeVermelho { /* aqui estamos atualizando um estilo já criado apenas quando utlizarmos com a tag th em uma tabela */
+    font-size: 80px;
+}

@@ -1,0 +1,73 @@
+
+<!-- SINTAXES DE CRIAÇÃO DE ESTILOS --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        .paragrafoGrandeAzul {
+            font-size: 30px;
+            color: #3366ff;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="meuPrimeiroArquivo.css">
+
+</head>
+<body>
+
+    <p class="paragrafoGrandeAzul"> Site do MFJ </p>
+
+    <p style="font-size: 20; color: #ffcc00;  " > Site do MFJ</p>  <!-- Inline Styles for HTML -->
+
+    <!--        
+        When to Use Inline Styles
+            Professional web developers do not use inline styles often, but there are times when 
+            they are important to understand or necessary to use. Here are a few places you may see inline styles:
+
+                    HTML e-mail
+                    Older websites
+                    CMS content (e.g. WordPress, Drupal)
+                    Dynamic content (i.e. HTML created or changed by JavaScript)
+
+    -->
+    <a href="https://www.codecademy.com/article/html-inline-styles">When to Use Inline Styles</a>
+
+    <p class="paragrafoGrandeVermelho">Site do MFJ</p>
+
+    <p class="paragrafoGrandeVermelho" style="text-decoration: underline;">Site do MFJ</p> <!-- Mante os dois atributos classe e inline-->
+
+    <p class="paragrafoGrandeVermelho" style="color: #00ff00;">Site do MFJ</p> <!-- Mas neste caso ele troca pra verde ou seja usa a informação mais recente -->
+
+    <!-- PODE UTILIZAR MULTIPLOS ESTILOS -->
+
+    <p class="fundoVermelho corBranca"> 
+        
+        Parágrafo com vários estilos 
+
+    </p>
+    
+    <p>Parágrafo sem atributos style/class, mas com marcação própria</p> <!-- Neste caso um estilo aprlicado direto na marcação -->
+
+    <p id="rodape">Parágrafo com id "rodape" </p>
+
+    <p id="dicaDoMfj">DICA: comparar o seu código com o do instrutor </p>
+
+    <b id="rodape">Texto</b>
+
+    <h1> Tabela </h1>
+
+    <table>
+        <tr>
+            <th class="paragrafoGrandeVermelho">Título da tabela</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
+
