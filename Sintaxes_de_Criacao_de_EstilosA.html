@@ -68,6 +68,26 @@
         </tr>
     </table>
     
+    A continuación os mostramos los diferentes niveles ordenados de mas específicos a menos específicos.
+
+NIVEL 01
+- Estilos en línea (<p style="color:#fff;">)
+
+NIVEL 02
+- ID (#nombreId)
+
+NIVEL 03
+- Clases (.nombreClase)
+- Atributos y Pseudo - Clases (:first-child, :last-child :hover ...)
+
+NIVEL 04
+- Elementos (a, p, ul ...)
+- Pseudo - Elementos (::after, ::before, ::first-letter ...)
+
+Resumiendo si ponemos en nuestro HTML un estilo CSS en línea, siempre va  a sobrescribir a los demás estilos CSS declarados, ya que se encuentra en el Nivel 01 y al ser el mas específico, es el que mayor importancia tiene.
+
+La única manera de ganar a un estilo en línea es a través de la regla !important;
+    
 </body>
 </html>
 
