@@ -17,11 +17,6 @@ para identificar um unico paragrafo.
     font-style: normal;
 }
 
-.paragrafoGrandeVermelho {
-    font-size: 50px;
-    color: #ff0000;
-    font-style: normal;
-}
 
 .fundoVermelho {
     background-color: #ff0000;
